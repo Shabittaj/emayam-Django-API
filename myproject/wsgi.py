@@ -18,7 +18,7 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'myproject.settings')
 application = get_wsgi_application()
 
 # Optional: Specify the port if needed
-port = os.getenv('PORT', default='8000')  # Default port is 8000, adjust as necessary
+port = os.getenv('PORT', default='8090')  # Default port is 8000, adjust as necessary
 
 # Make the application callable with the specified port
 def application_with_port(environ, start_response):
