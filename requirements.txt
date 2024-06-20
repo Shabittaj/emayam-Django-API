@@ -1,0 +1,6 @@
+Django
+psycopg2-binary  # PostgreSQL database adapter for Python
+djangorestframework # Django REST framework
+djangorestframework-simplejwt  # JWT authentication for Django REST framework
+djoser # RESTful API endpoints for Django authentication
+django-cors-headers # Django app for handling Cross-Origin Resource Sharing (CORS)
