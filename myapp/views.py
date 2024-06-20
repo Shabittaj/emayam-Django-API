@@ -27,3 +27,10 @@ class UserProfileView(APIView):
         user = request.user
         serializer = UserSerializer(user)
         return Response(serializer.data)
+
+# myapp/views.py
+
+from django.http import HttpResponse
+
+def home(request):
+    return HttpResponse("Hello, this is the home page!")
