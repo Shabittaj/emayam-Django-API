@@ -25,5 +25,4 @@ def application_with_port(environ, start_response):
     environ['SERVER_PORT'] = port
     return application(environ, start_response)
 
-# Set the application variable to the callable application with port
-application = application_with_port
+# If using a specific port is not required, simply comment the above lines and keep it as it is.
